@@ -1,0 +1,23 @@
+#aBox {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 4px;
+}
+
+p {
+    background-color: pink;
+    /*width: 100px;*/
+    /*height: 100px;*/
+}
+
+/*div {*/
+    /*border: 2px solid black;*/
+    /*border-radius: 2px;*/
+/*}*/
+
+span {
+    background-color: lightblue;
+    width: 80px;
+    height: 80px;
+}

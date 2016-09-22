@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>jQuery</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="row">
+    <!--buttons-->
+    <button id="btn1" class="button">Button 1</button>
+    <button class="btn2 button">Click</button>
+
+    <hr>
+    <!--Paragraphs-->
+    <div id="main" class="style">
+        <p id="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id malesuada turpis. Aenean sapien
+            diam,
+            luctus sed sagittis sed, porta eget ante. Fusce in lacinia nulla. Etiam et lorem facilisis, volutpat quam
+            in,
+            congue
+            velit. Aliquam accumsan mi et augue aliquet luctus varius vitae libero. <span id="span1">Fusce porttitor est eget ex condimentum
+    placerat.</span> Vivamus euismod, purus non pharetra tincidunt, nisl lacus viverra erat, eget imperdiet augue velit
+            at
+            urna. Suspendisse potenti. Pellentesque leo nibh, viverra non ex vestibulum, eleifend varius sapien.</p>
+
+        <p class="para2">Sed convallis tellus pretium sapien tincidunt, in sodales quam porttitor. Mauris sit amet
+            varius
+            nisi.
+            Nulla at tempus nunc. Aenean fermentum lacus ut tristique imperdiet. <span class="span2">Praesent facilisis enim semper massa volutpat
+    dignissim.</span> Sed eleifend metus ac eros blandit luctus. Ut in consequat ante. In feugiat malesuada efficitur.
+            Donec
+            metus dui, sagittis sit amet odio ac, scelerisque cursus purus. Proin quis lorem a velit luctus accumsan nec
+            sit
+            amet diam. Aliquam erat volutpat. Pellentesque ultricies nisi sed tellus aliquam tincidunt at et nisi.</p>
+    </div>
+
+    <div id="sub" class="style">
+        <span>Span</span>
+        <div id="firstDiv">First Div</div>
+        <p>Paragraph</p>
+        <div><span>Span</span></div>
+    </div>
+
+    <div id="aBox"></div>
+    <img src="https://vk.com/images/gift/797/256.jpg" alt="">
+
+    <hr>
+    <!--Lists-->
+    <ol class="list1">
+        <li>first item</li>
+        <li>second item
+            <ul>
+                <li>second item first subitem</li>
+                <li>second item second subitem</li>
+                <li>second item third subitem</li>
+            </ul>
+        </li>
+        <li>third item</li>
+    </ol>
+
+    <ul id="list2">
+        <li id="item1">Coffee</li>
+        <li id="item2">Tea</li>
+        <li id="item3">Milk</li>
+    </ul>
+
+    <hr>
+    <!--Table-->
+    <table id="table">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Bev</td>
+            <td>Francis</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>Folks</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>Tosha</td>
+            <td>Enlish</td>
+            <td>34</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!--Form-->
+    <form>
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other <br>
+
+        <input type="submit" value="Submit" style="margin-top: 10px">
+    </form>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
